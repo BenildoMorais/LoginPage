@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --primary-color: #c0c0c0;
+    --secondary-color: #ffffff;
+}
+
+body{
+    background: rgba(0,0,0,0.2) url("loginImage.jpg") center/cover no-repeat fixed;
+}
+
+a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.wrapper {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 1rem;
+    padding: 1rem;
+}
+
+.Login-wrapper {
+    
+}
